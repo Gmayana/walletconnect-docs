@@ -69,7 +69,7 @@ signClient.on("session_delete", () => {
 import Web3Modal from "@web3modal/standalone";
 
 const web3Modal = new Web3Modal({
-  projectId: "<YOUR_PROJECT_ID>",
+  projectId: "<alienhub>",
   // `standaloneChains` can also be specified when calling `web3Modal.openModal(...)` later on.
   standaloneChains: ["eip155:1"],
 });
